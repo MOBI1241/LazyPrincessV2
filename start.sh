@@ -7,7 +7,7 @@ else
   git clone $UPSTREAM_REPO /MOBI1241
 fi
 
-cd /MOBI1241  # שימוש בשם התיקייה שהתקבלה מ git clone
+cd /MOBI1241
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 bot.py
